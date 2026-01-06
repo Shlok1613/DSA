@@ -35,8 +35,3 @@ The goal is to build **problem-solving fundamentals and pattern recognition**, n
 ---
 
 📌 *This repository reflects consistent practice and learning-in-progress.*
-
-
-
-tell me — for now, this is **perfect**.
-
