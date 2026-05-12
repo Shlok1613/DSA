@@ -9,12 +9,14 @@
 #                    Otherwise, we return the non-null value from either the left or right subtree.
 # LeetCode Link: https://leetcode.com/problems/recover-binary-search-tree/
 
+from typing import Optional
+
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 class Solution:
     def recoverTree(self, root: Optional[TreeNode]) -> None:
         self.prev = self.first = self.second = None
