@@ -5,6 +5,7 @@
 # Short Explanation: We use a hash table to count occurrences of each number and return the one that occurs only once.
 # LeetCode: https://leetcode.com/problems/single-number/
 
+from ast import List
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         count = {}
