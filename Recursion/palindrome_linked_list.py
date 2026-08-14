@@ -6,11 +6,12 @@
 #                   then compare the values from the end back to the start with a left pointer that moves forward. 
 #LeetCode: https://leetcode.com/problems/palindrome-linked-list/
 
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
         self.left = head
